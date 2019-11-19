@@ -44,6 +44,8 @@ impl MemoryArea {
     pub fn size(&self) -> u64 {
         self.length
     }
+
+    pub fn mem_type(&self) -> u32 { self.typ }
 }
 
 #[derive(Clone, Debug)]
