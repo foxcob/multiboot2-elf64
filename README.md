@@ -1,9 +1,11 @@
 # multiboot2-elf64
 [![Build Status](https://travis-ci.org/rust-osdev/multiboot2-elf64.svg?branch=master)](https://travis-ci.org/rust-osdev/multiboot2-elf64)
+[![crates.io](https://img.shields.io/crates/v/multiboot2.svg)](https://crates.io/crates/multiboot2)
+[![docs](https://docs.rs/multiboot2/badge.svg)](https://docs.rs/multiboot2/)
 
 An experimental Multiboot 2 crate for ELF-64 kernels. It's still incomplete, so please open an issue if you're missing some functionality. Contributions welcome!
 
-It uses the Multiboot 1.6 specification at http://nongnu.askapache.com/grub/phcoder/multiboot.pdf and the ELF 64 specification at http://www.uclibc.org/docs/elf-64-gen.pdf.
+It uses the Multiboot 2.0 specification at https://www.gnu.org/software/grub/manual/multiboot2/multiboot.html and the ELF 64 specification at http://www.uclibc.org/docs/elf-64-gen.pdf.
 
 Below is the draft for a blog post about this. I don't plan to finish it but maybe it's helpful as documentation.
 
